@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Seção 04 - Aula 02  </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> Seção 04 -  Aula 02 </h1>
+        <script>
+            var nome = "Geek curso";
+            var nome2 = 'javascrip';
+
+            nome = 'Manoel';
+            var alunos = ["manoel", "mariana"];
+            var aluno = {
+                nome: 'Manoel',
+                idade: 46,
+                altura: 1.80
+            }
+
+            console.log(nome);
+            console.log(alunos);
+            console.log(aluno.idade);
+        </script>
+ 
+        <h1> Seção 04 -  Aula 03 </h1>
+        <script>
+            var idade = 5;
+
+            if(idade >= 18){
+                console.log("Maior de idade");
+            } else {
+                console.log("Menor de idade");
+            }
+
+            if(idade == '5'){
+                console.log("Igual");
+            } else {
+                console.log("Diferente");
+            }
+           
+            if(idade === '5'){
+                console.log("Igual");
+            } else {
+                console.log("Diferente");
+            }
+
+
+            switch(idade){
+                case 5:
+                    console.log("valor 5");
+                    break;
+                case 10:    
+                    console.log("valor 10");
+                    break;
+                default:
+                console.log("Default ");
+                    break;
+            }
+        </script>    
+
+
+        <h1> Seção 04 -  Aula 05 </h1>
+        <script>
+            for(var i = 0; i<=10; i++) {
+                console.log(i);
+            }
+            
+            var numero = 20
+
+            while (numero <= 10){
+                console.log(numero);
+                numero++;
+            }
+
+            do {
+                console.log(numero);
+                numero++;
+            } while(numero <50 )
+        
+        </script>
+
+        <h1> Seção 04 -  Aula 06 </h1>
+        <script>
+            var idade = 5;
+            var sexo = 'M';
+            // AND = &&
+            if(idade >= 18 && sexo === 'M'){
+                console.log("Maior de idade");
+            } else {
+                console.log("Menor de idade");
+            }
+
+            // OR = ||
+            if(idade >= 18 || sexo === 'M'){
+                console.log("Maior de idade");
+            } else {
+                console.log("Menor de idade");
+            }
+            // NOT = !=
+            if(sexo != 'M'){
+                console.log("Maior de idade");
+            } else {
+                console.log("Menor de idade");
+            }
+
+            
+        </script>    
+
+    </body>
+</html>
